@@ -3,6 +3,7 @@ import Clock from './State'
 import State2 from './State2'
 import List from "./list"
 import Form from "./form"
+import Hooks from "./hooks"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <State2 />
       <List />
       <Form />
+      <Hooks />
     </div>
   );
 }
